@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルメモ帳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 メモ帳</h1>
+            <button class="btn btn-primary" id="addNoteBtn">+ 新規メモ</button>
+        </header>
+
+        <div class="notes-container" id="notesContainer">
+            <!-- メモがここに表示されます -->
+        </div>
+
+        <div id="emptyState" class="empty-state">
+            <p>メモはまだありません</p>
+            <p class="empty-state-sub">「新規メモ」ボタンをクリックして始めましょう</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
